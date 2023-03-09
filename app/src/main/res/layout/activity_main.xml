@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <ScrollView
+        android:layout_marginTop="90dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -98,6 +99,7 @@
                 android:textColor="@color/white"
                 android:layout_marginTop="20dp"
                 android:layout_gravity="center_horizontal"
+                android:text="Guardar"
                 />
 
             <GridLayout android:id="@+id/bargraphs"
@@ -118,6 +120,7 @@
                 <View android:id="@+id/graphVeryHappy"
                     android:layout_height="20dp"
                     android:layout_width="250dp"
+
                     />
 
                 <TextView

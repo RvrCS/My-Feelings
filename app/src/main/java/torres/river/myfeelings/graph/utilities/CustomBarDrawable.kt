@@ -12,7 +12,7 @@ class CustomBarDrawable : Drawable {
     var context: Context? = null
     var emocion : Emociones? = null
 
-    constructor(context: Context, emociones: Emociones){
+    constructor(context: Context, emocion: Emociones){
         this.context = context
         this.emocion = emocion
     }
@@ -22,7 +22,7 @@ class CustomBarDrawable : Drawable {
         val fondo: Paint = Paint()
         fondo.style = Paint.Style.FILL
         fondo.isAntiAlias = true
-        fondo.color = context?.resources?.getColor(R.color.gray)?: R.color.gray
+        fondo.color = context?.resources?.getColor(R.color.gray) ?: R.color.gray
 
         val ancho: Float = (p0.width - 10).toFloat()
         val alto: Float = (p0.height - 10).toFloat()

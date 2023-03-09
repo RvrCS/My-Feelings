@@ -149,11 +149,11 @@ class MainActivity : AppCompatActivity() {
         var pS: Float = (sad * 100 / total).toFloat()
         var pVS: Float = (verysad * 100 / total).toFloat()
 
-        Log.d("porcentajes", "very happy" + pVH)
-        Log.d("porcentajes", "happy" + pH)
-        Log.d("porcentajes", "neutral" + pN)
-        Log.d("porcentajes", "sad" + pS)
-        Log.d("porcentajes", "very sad" + pVS)
+        Log.d("porcentajes", "very happy " + pVH)
+        Log.d("porcentajes", "happy " + pH)
+        Log.d("porcentajes", "neutral " + pN)
+        Log.d("porcentajes", "sad " + pS)
+        Log.d("porcentajes", "very sad " + pVS)
 
         lista.clear()
         lista.add(Emociones("Muy feliz", pVH, R.color.mustard, veryHappy))
